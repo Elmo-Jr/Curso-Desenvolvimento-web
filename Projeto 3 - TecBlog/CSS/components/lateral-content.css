@@ -1,0 +1,28 @@
+.lateral-content {
+    background-color: rgb(226, 224, 224);
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 240px;
+    float: right;
+    border-radius: 10px;
+}
+
+.lateral-content .lateral-title {
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.lateral-content .post-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.lateral-content a:link, .lateral-content a:visited {
+    color: #f7b600;    
+    text-decoration: none;
+}
+
+.lateral-content a:hover {
+    text-decoration: underline;
+}
