@@ -26,7 +26,7 @@ header h1 {
   background-color: #6e6e6e;
   width: 167px;
   padding: 10px;
-  margin: 20px 5px;
+  margin: 20px 0px;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 900;
@@ -36,7 +36,7 @@ header h1 {
 }
 
 .sec-projeto {
-  padding: 50px;
+  padding: 50px 16px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
