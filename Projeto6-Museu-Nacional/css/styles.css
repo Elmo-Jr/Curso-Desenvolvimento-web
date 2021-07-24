@@ -60,13 +60,15 @@ nav ul li a:hover {
 #conteudo {
   width: 720px;
   float: left;
-  background: seagreen;
+  margin-bottom: 20px;
 }
 
 aside {
   width: 350px;
   float: right;
   background: #ebe7dd;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #visita {
@@ -82,6 +84,30 @@ section h4 {
   margin-bottom: 0;
 }
 
+#postagem {
+  margin-top: 10px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#postagem #historia {
+  margin-top: 20px;
+  width: 310px;
+}
+
+#postagem #exposicoes {
+  margin-top: 20px;
+  width: 310px;
+}
+
+h3 {
+  color: #227115;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
 input {
   height: 20px;
   width: 80px;
@@ -94,7 +120,11 @@ input.campo {
   border: 1px solid #ada484;
 }
 input.campo#qtd {
-  width: 30px;
+  width: 40px;
+}
+
+.label-qtd {
+  margin-left: 25px;
 }
 
 input.botao {
@@ -111,4 +141,41 @@ fieldset {
 
 legend {
   display: none;
+}
+
+section#galeria {
+  padding: 0;
+  margin: 0 20px;
+}
+
+section#galeria a img {
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 93px;
+  height: 93px;
+}
+
+section#galeria a {
+  display: block;
+  background: url(../assets/img/fundo-foto.png) no-repeat;
+  float: left;
+  padding: 17px 15px 17px 15px;
+  margin: 10px 0 0 20px;
+}
+
+footer {
+  background: url(../assets/img/fundo-rodape.png) no-repeat center top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0 40px;
+  clear: both;
+}
+
+footer p {
+  margin: 5px;
+}
+
+footer p a {
+  margin: 0 10px;
 }
